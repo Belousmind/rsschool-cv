@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=PT+Mono&display=swap');
+
+* {
+    background-color: #FCF8F8;
+    box-sizing: border-box;
+    /* width: 1072px;
+    margin: 0 auto; */
+    scroll-behavior: smooth;
+}
+ 
+
+header, 
+main,
+footer {
+    width: 1072px;
+    margin: 0 auto;
+}
+
+
+
+h1, h2 {
+    color: #2E65F1;
+}
+
+h1, p, a, code, li {
+    font-family: 'PT Mono', monospace;
+}
+
+h2 {
+    font-family: 'Kalam', cursive;
+    font-size: 32px;
+    margin: 0px;
+}
+
+p, a, code, ul {
+    font-size: 14px;
+}
+
+a, .watermark {
+    color: #CEC6C6;
+    text-decoration: none;
+}
+
+p {
+    color: #828181;
+}
+
+.bold-text {
+    color: #494949;
+}
+
+ul {
+    list-style: none;
+}
+
+/* HEADER  */
+
+img {
+    width: 215px;
+    height: 215px;
+}
+
+
+nav li {
+    display: inline;
+    margin-right: 45px;
+}
+
+nav {
+    margin-left: 364px;
+    margin-top: 35px
+}
+
+a:hover {
+    color: #2E65F1;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 104px;
+    /* margin: 0 auto; */
+    align-items: center;
+}
+
+.header-text {
+    width: 580px;
+    padding-left: 40px;
+}
+
+.contact {
+    text-align: end;
+    color: #828181;
+    margin: 20px 0;
+    
+}
+
+h1 {
+    font-size: 64px;
+    margin: 0;
+} 
+
+/* MAIN BLOCK  */
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skills {
+    padding-top: 80px;
+    width: 300px;
+
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* box-sizing: content-box;    */
+}
+
+.skill-item {
+    display: inline;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2E65F1;
+    padding: 10px;
+    margin: 5px 10px;    
+}
+
+.skills-container > ul {
+    margin: 0;
+    color: #828181;
+    
+}
+
+.about {
+    padding-top: 80px;
+    width: 770px;
+    padding-left: 260px;
+}
+
+/* experience & education*/
+
+.experience,
+.education {
+    padding-top: 70px;
+    width: 708px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.experience > h2,
+.education > h2 {
+    width: 708px;
+}
+
+.data {
+    width: 106px;
+}
+
+.main-text {
+    width: 509px;
+    padding-left: 100px;
+}
+
+/* CODE & RESENT */
+.code {
+    width: 400px;
+    padding-top: 70px;
+}
+
+.codewars {
+    padding-left: 230px;
+}
+
+code {
+    
+    background-color: #2E65F1;
+    color: white;
+}
+
+.projects {
+    padding-top: 70px;
+    padding-left: 160px;
+}
+
+
+
+.langs {
+    padding-left: 560px
+}
+
+.langs > ul {
+    color: #828181;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+    height: 180px;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 30px;
+}
+
+/* footer > ul { 
+    padding-left: 170px;
+} */
+
+.rs_logo {
+    width: 121px;
+    height: 45px;
+}
